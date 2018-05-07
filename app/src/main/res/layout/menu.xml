@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_alignParentBottom="true"
+	    android:orientation="vertical"
+        >
+	    <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:orientation="vertical"
+	     	android:background="@drawable/menu_bg_shape"
+	       >
+		    <Button
+		        style="@style/menu_btn"
+		        android:id="@+id/help"
+		        android:text="@string/help"
+		         />
+		    <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="@color/menu_tv"/>
+		    <Button
+		        style="@style/menu_btn"
+		        android:id="@+id/exit"
+		        android:text="@string/exit"
+		        />
+		
+		    <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="@color/menu_tv"/>
+		    <Button
+		        style="@style/menu_btn"
+		        android:id="@+id/cancel"
+		        android:text="@string/cancel_login"/>
+		     </LinearLayout>
+		     <LinearLayout 
+			    android:id="@+id/pop_layout2"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_horizontal"
+			    android:orientation="vertical"
+			    android:layout_marginTop="15dip"
+		        android:layout_marginBottom="10dp"
+			    android:background="@drawable/menu_bg_shape"
+		  	    >
+			    <Button
+			        style="@style/menu_btn"
+			        android:id="@+id/about"
+			        android:text="@string/about"
+			       />
+		     </LinearLayout>
+	     </LinearLayout>
+     
+     </RelativeLayout>

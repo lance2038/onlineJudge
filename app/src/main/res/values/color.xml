@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="navigation_up">#e0e0e0</color>
+   <color name="color1">#6d56fa</color>
+   <color name="color2">#3030e9</color>
+   <color name="color3">#d0cfcf</color>
+   <color name="background">#80000000</color>
+   <color name="whiles">#FFFFFF</color>
+   <color name="black">#000000</color>
+   <color name="menu_btn">#1e55f3</color>
+   <color name="result_line_tv">#033879</color>
+   <color name="menu_tv">#5067686b</color>
+   <color name="down_menu_tv">#cd824c</color>
+   <color name="title">#fff</color>
+</resources>

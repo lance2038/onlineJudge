@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:src="@drawable/four_top"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/ershi"
+        android:text="@string/rongyu"/>
+     <LinearLayout 
+         android:layout_marginLeft="40dp"
+         android:layout_marginTop="40dp"
+         android:layout_marginRight="40dp"
+         android:layout_marginBottom="140dp"
+         android:gravity="center_horizontal|bottom"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+        <Button 
+             android:id="@+id/tiyan"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="30dp"
+             android:layout_marginRight="30dp"
+             android:textSize="22sp"
+             android:text="@string/experience"
+             android:background="@drawable/login_btn"
+             android:focusable="true"/>
+
+     </LinearLayout>
+   
+
+</LinearLayout>

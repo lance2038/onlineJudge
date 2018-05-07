@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">自测系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="please_input_username">请输入账号</string>
+    <string name="login">登录</string>
+    <string name="login_lose">登录失败！！！</string>
+    <string name="pass_miss">密码错误！！！</string>
+    <string name="user_pass_isnotnull">账号密码不能为空！！！</string>
+    <string name="user_isnotnull">账号不能为空！！！</string>
+    <string name="pass_isnotnull">密码不能为空！！！</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="androidtest">android测试</string>
+    <string name="javatest">java测试</string>
+    <string name="submit">提交</string>
+    <string name="android_test">android测试题</string>
+    <string name="java_test">java测试题</string>
+    <string name="single_topic">一、单选题</string>
+    <string name="more_topic">二、多选题</string>
+    <string name="present_choice">当前</string>
+    <string name="right_wrong">对/错</string>
+    <string name="result">答案</string>
+    <string name="score">得分</string>
+    <string name="total_score">总分：</string>
+    <string name="android_test_result">android测试结果</string>
+    <string name="java_test_result">java测试结果</string>
+    <string name="show_result">答案</string>
+    <string name="one_again">重做</string>
+    <string name="help">帮助</string>
+    <string name="cancel_login">注销登录</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+    <string name="topic_num1">1.</string>
+    <string name="topic_num2">2.</string>
+    <string name="topic_num3">3.</string>
+    <string name="topic_num">题号</string>
+    <string name="help_content">  选择你所认为正确答案 （每道题都必须要选）。单选题，每道题目20分，正确给20分，错误给0分。多选题，每道题目20分，正确给20分，有一个答案正确且没有出现正确答案以外的选项，则给10分，否则0分。做完题目墙按提交按钮提交答案。提交答案后可以按显示以显示正确答案，或者按重做再做一遍。</string>
+	<string name="about_content">移动互联网测试平台</string>
+	
+	<!-- android -->
+	<string name="android_rb1">1、在 Activity中，如何获取 service 对象？（）</string>
+	<string name="android_rb1_a">A. 可以通过直接实例化得到;</string>
+	<string name="android_rb1_b">B. 通过 startService();</string>
+	<string name="android_rb1_c">C. 通过 getService()获取;</string>
+	<string name="android_rb1_d">D. 可以通过绑定得;</string>
+
+	<string name="android_rb2">2、在使用 SQLiteOpenHelper这个类时，它的哪一个方法是用来实现版本升级之用的？（）</string>
+	<string name="android_rb2_a">A. onCreate();</string>
+	<string name="android_rb2_b">B. onCreade();</string>
+	<string name="android_rb2_c">C. onUpdate();</string>
+	<string name="android_rb2_d">D. onUpgrade();</string>
+	
+	<string name="android_rb3">3、在多个应用中读取共享存储数据时， 需要用到哪个对象的 query 方法？（）</string>
+	<string name="android_rb3_a">A. ContentResolver;</string>
+	<string name="android_rb3_b">B. ContentProvider;</string>
+	<string name="android_rb3_c">C. Cursor;</string>
+	<string name="android_rb3_d">D. SQLiteHelper;</string>
+	
+	<string name="android_rb4">1、关于广播的作用，正确的说法是（）</string>
+	<string name="android_rb4_a">A. 它是用接收系统发布的一些消息的;</string>
+	<string name="android_rb4_b">B. 它可以启动一个 Service;</string>
+	<string name="android_rb4_c">C. 它可以启动一个 Service;</string>
+	<string name="android_rb4_d">D. 它可以启动一个 Activity;</string>
+	
+	<string name="android_rb5">2、Intent 传递数据时，下列的数据类型哪些可以被传递（）</string>
+	<string name="android_rb5_a">A. Serializable;</string>
+	<string name="android_rb5_b">B. charsequence;</string>
+	<string name="android_rb5_c">C. Parcelable;</string>
+	<string name="android_rb5_d">D. Bundle;</string>
+
+	
+	<!-- java -->
+	<string name="java_rb1">1、下列哪种说法是正确的？</string>
+	<string name="java_rb1_a">A. 实例方法可直接调用本类的类方法;</string>
+	<string name="java_rb1_b">B. 实例方法可直接调用超类的实例方法;</string>
+	<string name="java_rb1_c">C. 实例方法可直接调用超类的类方法;</string>
+	<string name="java_rb1_d">D. 实例方法可直接调用其他类的实例方法;</string>
+
+	
+	<string name="java_rb2">2、新建一个流对象，下面哪个选项的代码是错误的？</string>
+	<string name="java_rb2_a">A. new BufferedWriter(new FileWriter("a.txt"));</string>
+	<string name="java_rb2_b">B. new GZIPOutputStream(new FileOutputStream("a.zip"));</string>
+	<string name="java_rb2_c">C. new BufferedReader(new FileInputStream("a.dat"));</string>
+	<string name="java_rb2_d">D. new ObjectInputStream(new FileInputStream("a.dat"));</string>
+
+	<string name="java_rb3">3、Java的集合框架中重要的接口java.util.Collection定义了许多方法，选项中哪个方法不是 Collection 接口所定义的？</string>
+	<string name="java_rb3_a">A. int size();</string>
+	<string name="java_rb3_b">B. compareTo(Object obj)；</string>
+	<string name="java_rb3_c">C. boolean containsAll(Collection c);</string>
+	<string name="java_rb3_d">D. boolean remove(Object obj);</string>
+	
+	<string name="java_rb4">1、下列说法错误的有（）</string>
+	<string name="java_rb4_a">A. Java面向对象语言容许单独的过程与函数存在;</string>
+	<string name="java_rb4_b">B. Java面向对象语言容许单独的方法存在;</string>
+	<string name="java_rb4_c">C. Java语言中的方法属于类中的成员（member）;</string>
+	<string name="java_rb4_d">D. Java语言中的方法必定隶属于某一类（对象），调用方法与过程或函数相同;</string>
+
+	<string name="java_rb5">2、下面哪个选项演示了继承关系（）</string>
+	<string name="java_rb5_a">A. ①、public class Species{ }，②、public class Animal{private Species species;};</string>
+	<string name="java_rb5_b">B. ①、class Father { }，②、class son extends Father { };</string>
+	<string name="java_rb5_c">C. ①、abstract class Colorable { }，②、class Shape extends Colorable { };</string>
+	<string name="java_rb5_d">D. ①、interface Person { }，②、public class Employee implements Person{ };</string>
+	<string name="experience">马上体验</string>
+	<string name="version">V 1.1.0</string>
+	<string name="back">返回</string>
+	<string name="rongyu">荣誉出品</string>
+	
+	
+
+</resources>

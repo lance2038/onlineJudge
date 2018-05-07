@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+   >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="48dp" >
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48.0dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/main_down_bg"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/down_menu_tv"/>
+        <RadioGroup
+            android:id="@+id/home_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:background="@drawable/radio_bg2_shape"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/home_android"
+                style="@style/main_tab_bottom"
+                android:checked="true"
+                android:layout_marginBottom="1dp"
+                android:drawableTop="@drawable/android_drawable_top"
+                android:text="@string/androidtest"
+                />
+
+            <RadioButton
+                android:id="@+id/home_java"
+                style="@style/main_tab_bottom"
+                android:layout_marginBottom="1dp"
+                android:drawableTop="@drawable/java_drawable_top"
+                android:text="@string/javatest"
+               />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</RelativeLayout>

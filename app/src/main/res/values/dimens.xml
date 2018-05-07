@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="shiliu">16.0sp</dimen>
+    <dimen name="shisi">14.0sp</dimen>
+    <dimen name="shier">12.0sp</dimen>
+    <dimen name="shiba">18.0sp</dimen>
+    <dimen name="ershi">20.0sp</dimen>
+    <dimen name="ershier">22.0sp</dimen>
+    <dimen name="ershisi">24.0sp</dimen>
+
+</resources>
