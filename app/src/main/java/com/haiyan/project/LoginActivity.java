@@ -33,7 +33,7 @@ public class LoginActivity extends Activity {
 		login = (Button) findViewById(R.id.login_activity_login);
 		username = (EditText) findViewById(R.id.username);
 		passwor = (EditText) findViewById(R.id.password);
-		//sssss
+		//sssssss
 	}
 	private void listener() {
 		login.setOnClickListener(new OnClickListener() {
